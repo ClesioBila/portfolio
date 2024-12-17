@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='contact us.css'>
+    <script src='main.js'></script>
+    
+       
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="Home">
+              <h1 class="edit">Contato</h1>
+            </div>
+          <div class="nav-list">
+              <ul>
+                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                 <li class="nav-item"><a href="About me.html" class="nav-link">Sobre mim</a></li>
+                 <li class="nav-item"><a href="About.html" class="nav-link">Habilidades</a></li>
+                 <li class="nav-item"><a href="portifolio.html" class="nav-link">portfolio</a></li>
+                 <li class="nav-item"><a href="contact us.html" class="nav-link">Contato </a></li>
+              </ul>
+          </div>
+    
+          <div class="mobile-menu-icon">
+              <button onclick="menushow()"><img class="icon" src="Images/download.jpg"></button>
+          </div>
+             </nav>
+             <div class="mobile-menu">
+              <ul>
+                  <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                  <li class="nav-item"><a href="About me.html" class="nav-link">Sobre mim</a></li>
+                  <li class="nav-item"><a href="About.html" class="nav-link">Habilidades</a></li>
+                  <li class="nav-item"><a href="portifolio.html" class="nav-link">portfolio</a></li>
+                  <li class="nav-item"><a href="contact us.html" class="nav-link">Contato </a></li>
+               </ul>
+             </div>
+    </header>
+    <section class="contact-section">
+        <div class="container">
+        <div class="contact-info">
+        <h2>Informação</h2>
+        <p>Este contacto encontra-se disponivel no intervalo das 8h ate 20h.<br>
+            Contate me sempre que puder e eu resolverei o seu problema.</p>
+        <div class="info-item">
+        <div class="icon">📍</div>
+        <div>
+        <h4>Endereço</h4>
+        <p>Rua E Q.34 CASA 125 <br>
+            25 DE JUNHO B KAMUBUCUANA<br></p>
+        </div>
+        </div>
+        <div class="info-item">
+        <div class="icon">📞</div>
+        <div>
+        <h4>Telefone</h4>
+        <p>258-877-414-848</p>
+        </div>
+        </div>
+        <div class="info-item">
+        <div class="icon">📧</div>
+        <div>
+        <h4>Email</h4>
+        <p>Bilaclesio@gmail.com</p>
+        </div>
+        </div>
+        </div>
+        <div class="contact-form" >
+        <h3>Envie uma mensagem</h3>
+        <form>
+        <input type="text" placeholder="Nome completo" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Digite sua Mensagem..." required></textarea>
+        <button type="submit">Enviar</button>
+        </form>
+        </div>
+        </div>
+        </section>  
+
+        <footer>
+            <p>
+               &copy; 2024 Clesio Bila. Todos os direitos reservados
+            </p>
+            
+        </footer>
+
+        <script>
+            
+function menushow(){
+    let menuMobile = document.querySelector('.mobile-menu');
+    if(menuMobile.classList.contains('open')){
+        menuMobile.classList.remove('open');
+    }else {
+        menuMobile.classList.add('open')
+    }
+}
+        </script>
+</body>
+</html>
