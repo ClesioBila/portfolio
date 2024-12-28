@@ -1,0 +1,7 @@
+{
+    internal class program{
+        static void Main(string[] args){
+            double num, dobro, triplo,metade
+        }
+    }
+}

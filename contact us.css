@@ -137,7 +137,7 @@ body, h1, h2, h3, h4, p, ul, li, input, textarea, button {
                 padding: 0px;
                 background-color: rgba(21, 185, 190, 0.952);
                 color: white;
-                font-family:'Times New Roman', Times, serif;
+                font-family: Arial, sans-serif;
             }
             .nav-bar{
                 display: flex;
